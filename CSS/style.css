@@ -24,6 +24,7 @@ a{
     font-family: "Montserrat", sans-serif;
 }
 
+
 .nav-bar ul{
     margin: 0 20px;
     display: flex;
@@ -178,8 +179,6 @@ a{
     color: black;
 }
 
-/* Courses Section */
-
 .courses-box{
     height: 580px;
     position: relative;
@@ -289,12 +288,27 @@ a{
     width: 100%;
 }
 
-.course-name{
-    display: inline-block;
-    width: 100%;
+
+/* Media Queries */
+
+@media screen and (min-width: 900px){
+    .menu{
+        display: none;
+    }
 }
 
-
-
+@media screen and (max-width: 800px){
+    .nav-li{
+        display: none;
+    }
+    .menu{
+        margin-left: -400px;
+        display: block;
+    }
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 
 
