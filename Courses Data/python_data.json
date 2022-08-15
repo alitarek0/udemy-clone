@@ -18,7 +18,9 @@
                     "image": "https://img-b.udemycdn.com/user/100x100/52310762_220a.jpg"
                 }
             ],
-            "price": 16.99
+            "enrollment": 2982,
+            "price": 269.99,
+            "old_price": 679.99
         },
         {
             "id": 396876,
@@ -33,7 +35,9 @@
                     "image": "https://img-c.udemycdn.com/user/100x100/9685726_67e7_4.jpg"
                 }
             ],
-            "price": 19.99
+            "enrollment": "18,017",
+            "price": "319.99",
+            "old_price": "1,599.99"
         },
         {
             "id": 405878,
@@ -53,7 +57,9 @@
                     "image": "https://img-c.udemycdn.com/user/100x100/34613172_6fb4.jpg"
                 }
             ],
-            "price": 14.99
+            "enrollment": "1,798",
+            "price": "269.99",
+            "old_price": "679.99"
         },
         {
             "id": 426570,
@@ -68,7 +74,9 @@
                     "image": "https://img-c.udemycdn.com/user/100x100/10971708_a969_3.jpg"
                 }
             ],
-            "price": 16.99
+            "enrollment": "2,774",
+            "price": "269.99",
+            "old_price": "319.99"
         },
         {
             "id": 449532,
@@ -83,7 +91,9 @@
                     "image": "https://img-c.udemycdn.com/user/100x100/39032_bdc3_5.jpg"
                 }
             ],
-            "price": 17.99
+            "enrollment": "2,935",
+            "price": "269.99",
+            "old_price": "519.99"
         },
         {
             "id": 482754,
@@ -98,7 +108,9 @@
                     "image": "https://img-c.udemycdn.com/user/100x100/8096556_de24_4.jpg"
                 }
             ],
-            "price": 18.99
+            "enrollment": "1,825",
+            "price": "269.99",
+            "old_price": "1,299.99"
         },
         {
             "id": 519554,
@@ -113,7 +125,9 @@
                     "image": "https://img-c.udemycdn.com/user/100x100/12796044_b6aa_5.jpg"
                 }
             ],
-            "price": 15.99
+            "enrollment": "8,816",
+            "price": "269.99",
+            "old_price": "319.99"
         },
         {
             "id": 535622,
@@ -128,7 +142,9 @@
                     "image": "https://img-b.udemycdn.com/user/100x100/9685726_67e7_4.jpg"
                 }
             ],
-            "price": 19.99
+            "enrollment": "10,708",
+            "price": "269.99",
+            "old_price": "1,299.99"
         },
         {
             "id": 543600,
@@ -143,7 +159,9 @@
                     "image": "https://img-c.udemycdn.com/user/100x100/13922584_4ff5_2.jpg"
                 }
             ],
-            "price": 14.99
+            "enrollment": "101,783",
+            "price": "319.99",
+            "old_price": "519.99"
         },
         {
             "id": 567828,
@@ -158,7 +176,9 @@
                     "image": "https://img-c.udemycdn.com/user/100x100/9685726_67e7_4.jpg"
                 }
             ],
-            "price": 34.99
+            "enrollment": "428,474",
+            "price": "319.99",
+            "old_price": "729.99"
         },
         {
             "id": 577248,
@@ -173,7 +193,9 @@
                     "image": "https://img-c.udemycdn.com/user/100x100/717783_3157_7.jpg"
                 }
             ],
-            "price": 16.99
+            "enrollment": "9,251",
+            "price": "319.99",
+            "old_price": "549.99"
         },
         {
             "id": 622414,
@@ -198,7 +220,9 @@
                     "image": "https://img-b.udemycdn.com/user/100x100/168079506_7ef6.jpg"
                 }
             ],
-            "price": 15.99
+            "enrollment": "13,336",
+            "price": "229.99",
+            "old_price": "269.99"
         }
     ]
 }

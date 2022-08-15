@@ -1,5 +1,5 @@
 let courses;
-fetch("./Server/python_data.json")
+fetch("./Courses Data/python_data.json")
   .then((response) => {
     return response.json();
   })
@@ -47,7 +47,7 @@ function getCourses(courses) {
       new_p.innerHTML += ", " + courses[i].instructors[1].name;
     }
 
-    // rating
+    // rating + enrollment
     let new_span = document.createElement("span");
     new_span.classList.add("course-item");
     new_span.classList.add("course-rating");
@@ -71,6 +71,10 @@ function getCourses(courses) {
         stars.classList.add("fa-star-half-full");
       }
     }
+    let enrollment = document.createElement("span");
+    enrollment.classList.add("course-enrollment");
+    new_span.appendChild(enrollment);
+    enrollment.innerHTML = " (" + courses[i].enrollment + ")";
 
     // price
     new_span = document.createElement("span");
@@ -80,6 +84,10 @@ function getCourses(courses) {
     let price = document.createElement("span");
     price.classList.add("original-price");
     new_span.appendChild(price);
-    price.innerHTML = "$" + courses[i].price;
+    price.innerHTML = "E£" + courses[i].price + " ";
+    let oldPrice = document.createElement("span");
+    oldPrice.classList.add("old-price");
+    new_span.appendChild(oldPrice);
+    oldPrice.innerHTML = "E£" + courses[i].old_price;
   }
 }
