@@ -10,6 +10,7 @@
     color: black;
 }
 
+
 a{
     color: inherit;
 }
@@ -180,7 +181,7 @@ a{
 }
 
 .courses-box{
-    height: 1050px;
+    height: 120vh;
     position: relative;
     border: 2px solid rgb(226, 226, 226);
     margin-top: 10px;
@@ -236,14 +237,14 @@ a{
 .card{
     position: relative;
     /* padding-right: 15px; */
-    width: 15%;
+    width: 15vw;
     margin: 20px;
 }
 
 .course-name{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     font-weight:bolder;
-    font-size:small;
+    font-size:large;
 }
 
 .course-author{

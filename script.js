@@ -1,3 +1,4 @@
+// Fetching courses Data
 let courses;
 fetch("./Courses Data/python_data.json")
   .then((response) => {
@@ -11,6 +12,7 @@ fetch("./Courses Data/python_data.json")
     console.log(err);
   });
 
+// Displaying Courses
 function getCourses(courses) {
   // building courses content
   for (let i = 0; i < courses.length; i++) {
@@ -91,3 +93,20 @@ function getCourses(courses) {
     oldPrice.innerHTML = "E£" + courses[i].old_price;
   }
 }
+
+// Search bar functionality
+document.querySelector(".search-input").addEventListener("input", () => {
+  let text = document.querySelector(".search-input").value.toLowerCase();
+  let newCourses = [];
+  for (let i = 0; i < courses.length; i++) {
+    let title = courses[i].title.toLowerCase();
+    if (title.includes(text)) {
+      newCourses.push(courses[i]);
+    }
+  }
+  const cards = document.querySelectorAll(".card");
+  cards.forEach((element) => {
+    element.remove();
+  });
+  getCourses(newCourses);
+});
