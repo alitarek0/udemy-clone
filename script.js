@@ -1,9 +1,7 @@
 // Fetching courses Data
 let courses;
 fetch("./Courses Data/python_data.json")
-  .then((response) => {
-    return response.json();
-  })
+  .then((response) => response.json())
   .then((data) => {
     courses = data.courses;
     getCourses(courses);
