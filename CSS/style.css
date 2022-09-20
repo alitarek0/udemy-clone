@@ -181,7 +181,8 @@ a{
 }
 
 .courses-box{
-    height: 120vh;
+    height: 150vh;
+    overflow:auto;
     position: relative;
     border: 2px solid rgb(226, 226, 226);
     margin-top: 10px;
@@ -292,7 +293,6 @@ a{
 .card-img{
     width: 100%;
 }
-
 
 /* Media Queries */
 
